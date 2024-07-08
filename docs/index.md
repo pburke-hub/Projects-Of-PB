@@ -21,9 +21,11 @@ Various attempts:
 
 Testing Div with markdown="1":
 
-<div style="overflow-x:auto;white-space:nowrap" markdown="1" width="520" >
+<!-- style="overflow-x:auto;white-space:nowrap" markdown="1" -->
 
-![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg){: width="520" }
+<div class="scrolling-div-class" height="77px" width="520px" >
+
+![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg){: .img-noloading width="520px" height="77px" }
 
 </div> 
 

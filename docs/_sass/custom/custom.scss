@@ -3,6 +3,18 @@
 .scrolling-div-class {
   overflow-x: auto; /* Enable horizontal scrolling */
   white-space: nowrap; /* Prevent line breaks within the container */
-  markdown: "1"
+  markdown: "1"; 
+  max-width: none; 
+  max-height: none;
 }
 
+.img-lazy {
+  loading: "lazy"; 
+  max-width: none; 
+  max-height: none;
+}
+
+.img-noloading {
+  max-width: none; 
+  max-height: none;
+}

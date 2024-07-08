@@ -3,7 +3,7 @@
 .scrolling-div-class {
   overflow-x: auto; /* Enable horizontal scrolling */
   white-space: nowrap; /* Prevent line breaks within the container */
-  markdown: "1"; 
+  markdown: "1"; /* Optimistically have this here. However, in my experience, this attribute only works when specified as a native-attribute, not when specified via CSS.*/
   max-width: none; 
   max-height: none;
 }
@@ -14,7 +14,7 @@
   max-height: none;
 }
 
-.img-noloading {
+.img-noloadingppty {
   max-width: none; 
   max-height: none;
 }

@@ -13,13 +13,13 @@ Test image:
 
 <div style="overflow-x:auto;white-space:nowrap" >
 
-![Test Image](../docs/assets/images/F01/07_Output_Tbl-520w.jpg) {: width="520px" }
+![Test Image](../../docs/assets/images/F01/07_Output_Tbl-520w.jpg) {: width="520px" }
 
 </div> 
 
 2nd Test Image:
 
-![Test Image](../assets/images/F01/07_Output_Tbl-520w.jpg)
+![Test Image](../../assets/images/F01/07_Output_Tbl-520w.jpg)
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 

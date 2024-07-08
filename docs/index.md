@@ -13,15 +13,18 @@ Test image:
 
 <div style="overflow-x:auto;white-space:nowrap" >
 
-![Test Image](../../docs/assets/images/F01/07_Output_Tbl-520w.jpg)
-{: width="520px" }
+<!-- ![Test Image](../../docs/assets/images/F01/07_Output_Tbl-520w.jpg)
+{: width="520px" } -->
+
+<img src="../../docs/assets/images/F01/07_Output_Tbl-520w.jpg" width="520px" height="77px" loading="lazy" >
 
 </div> 
 
 2nd Test Image:
 
-![Test Image](/../../docs/assets/images/F01/07_Output_Tbl-520w.jpg)
+<!-- ![Test Image](/../../docs/assets/images/F01/07_Output_Tbl-520w.jpg) -->
 
+<img src="/../docs/assets/images/F01/07_Output_Tbl-520w.jpg">
 
 3rd Test Image:
 
@@ -31,7 +34,10 @@ Test image:
 
 <div style="overflow-x:auto;white-space:nowrap" >
 
-![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg)
+<!-- ![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg) -->
+
+<img src="https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg" 
+  width="520px" height="77px" loading="lazy" >
 
 </div> 
 
@@ -39,7 +45,7 @@ Test image:
 
 <div style="overflow-x:auto;white-space:nowrap" >
 
-![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg){: width="520px" }
+<img src="https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg" >{: width="520px" }
 
 </div> 
 

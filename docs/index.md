@@ -23,9 +23,9 @@ Testing Div with markdown="1":
 
 <!-- style="overflow-x:auto;white-space:nowrap" markdown="1" -->
 
-<div markdown="1" class="scrolling-div-class" height="77px" width="520px" >
+<div markdown="1" class="scrolling-div-class" height="77px" width="520px" style="aspect-ratio:520/77;" >
 
-![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg){: .img-noloadingppty width="520px" height="77px" }
+![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg){: .img-noloadingppty width="520px" height="77px" aspect-ratio=520/77}
 
 </div> 
 

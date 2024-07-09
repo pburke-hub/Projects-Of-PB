@@ -23,9 +23,12 @@ Testing Div with markdown="1":
 
 <!-- style="overflow-x:auto;white-space:nowrap" markdown="1" -->
 
-<div markdown="1" class="scrolling-div-class" height="77px" width="520px" style="aspect-ratio:520/77;" >
+<!-- `{: aspect-ratio=520/77}` doesn't work for an image, ergo, try: {: style="aspect-ratio:520/77;"}. DON'T set the div's aspect ratio, then if viewport gets less than 520 wide, the height gets lower than 77! In fact, I see no reason for <div> to have its height or width specified either! 
+Also, going to see how/whether align-content CSS property is good for the <>div's when screen is large / wide. If so, then should add it to the "scrolling-div-class". -->
 
-![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg){: .img-noloadingppty width="520px" height="77px" aspect-ratio=520/77}
+<div markdown="1" class="scrolling-div-class" style="align-content:center" >
+
+![Test Image](https://raw.githubusercontent.com/pburke-hub/Projects-Of-PB/main/docs/assets/images/07_Output_Tbl-520w.jpg){: .img-noloadingppty width="520px" height="77px" style="aspect-ratio:520/77;" }
 
 </div> 
 

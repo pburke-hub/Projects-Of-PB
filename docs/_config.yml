@@ -4,5 +4,14 @@ theme: just-the-docs
 
 url: https:///pburke-hub.github.io/Projects-Of-PB
 
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+
 #aux_links:
   #Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+search_enabled: false
+
+# Enable or disable the side/mobile menu globally
+# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+nav_enabled: true

@@ -27,9 +27,10 @@ jobs:
           bundle update
           bundle exec jekyll build #bundle update #bundle exec jekyll build
       - name: Push Checkout Folders Gemfile.lock To My Repo
+        # NB: Not `git add ./Projects-Of-PB/docs/Gemfile.lock` because our working directory (i.e. "./") is already set to /Projects-Of-PB/docs.
         run: | 
           git config --global user.name 'pburke-hub'
           git config --global user.email 'pburkeabc@gmail.com'
-          git add ./Projects-Of-PB/docs/Gemfile.lock
+          git add ./Gemfile.lock
           git commit -m 'Update Gemfile.lock'
           git push

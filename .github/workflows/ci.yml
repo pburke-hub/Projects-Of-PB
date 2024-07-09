@@ -28,8 +28,8 @@ jobs:
           bundle exec jekyll build #bundle update #bundle exec jekyll build
       - name: Push Checkout Folders Gemfile.lock To My Repo
         run: | 
-          git config --global user.name 'Your Name'
-          git config --global user.email 'your-email@example.com'
+          git config --global user.name 'pburke-hub'
+          git config --global user.email 'pburkeabc@gmail.com'
           git add ./Projects-Of-PB/docs/Gemfile.lock
           git commit -m 'Update Gemfile.lock'
           git push

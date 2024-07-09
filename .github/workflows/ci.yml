@@ -23,14 +23,15 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
           working-directory: '${{ github.workspace }}/docs'
       - name: Build with Jekyll
-        run: |
-          bundle update
-          bundle exec jekyll build #bundle update #bundle exec jekyll build
-      - name: Push Checkout Folders Gemfile.lock To My Repo
+        run: bundle exec jekyll build 
+          # bundle update
+          # bundle exec jekyll build #bundle update #bundle exec jekyll build
+      # Now that I've got a Gemfile.lock in my /Projects-Of-PB/docs folder, no need to repeatedly overwrite it :)
+      # - name: Push Checkout Folders Gemfile.lock To My Repo
         # NB: Not `git add ./Projects-Of-PB/docs/Gemfile.lock` because our working directory (i.e. "./") is already set to /Projects-Of-PB/docs.
-        run: | 
-          git config --global user.name 'pburke-hub'
-          git config --global user.email 'pburkeabc@gmail.com'
-          git add ./Gemfile.lock
-          git commit -m 'Update Gemfile.lock'
-          git push
+        # run: | 
+        #   git config --global user.name 'pburke-hub'
+        #   git config --global user.email 'pburkeabc@gmail.com'
+        #   git add ./Gemfile.lock
+        #   git commit -m 'Update Gemfile.lock'
+        #   git push
